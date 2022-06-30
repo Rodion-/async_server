@@ -33,7 +33,7 @@ jobs:
       - name: install gtests
         run: sudo apt-get install libgtest-dev
       - name: Run a one-line script
-        run: cmake -DTEST_RUN=1.
+        run: cmake -DTEST_RUN=0 .
                 
       - name: Run a one-line script
         run: cmake --build .
